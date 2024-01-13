@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.my-bg-home {
+    height: 100vh;
+
+    background: rgb(0, 4, 159);
+    background: linear-gradient(
+        218deg,
+        rgba(0, 4, 159, 1) 0%,
+        rgba(191, 203, 128, 1) 100%
+    );
+}
+
+.custom-font {
+    font-family: "Alegreya Sans", sans-serif;
+}
+.logo {
+    border-radius: 50%;
+    width: 60px;
+}
+.carta {
+    width: 250px;
+}
+.my-card-custom {
+    background-color: rgba(173, 216, 230, 0.219);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.my-animation-card,
+.wut {
+    transition: transform 0.3s ease-in-out;
+}
+
+.my-animation-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.wut:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.footer {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+background: rgb(94,96,194);
+background: linear-gradient(330deg, rgba(94,96,194,1) 0%, rgba(191,203,128,1) 100%);
+}
+
+.footer a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
