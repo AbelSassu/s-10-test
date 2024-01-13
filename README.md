@@ -1,3 +1,4 @@
+Sviluppata per desktop
 Librerie installate
 npm i 
 npm i bootstrap react-bootstrap
